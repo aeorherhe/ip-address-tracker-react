@@ -65,22 +65,25 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 
 ### Links
 
-- Solution URL: [solution](https://github.com/aeorherhe/ip-address-tracker.git)
-- Live Site URL: [live site](https://aeorherhe-ip-address-tracker.app)
+- Solution URL: [solution](https://github.com/aeorherhe/ip-address-tracker-react.git)
+- Live Site URL: [live site](https://aeorherhe-ip-address-tracker.netlify.app)
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
 - Mobile-first workflow
 - ES6 modules
 - React
 - NanoID library
 - Vite
-- React Icons
 - Styled Components
 - redux-toolkit
+- react query
+- leaflet library
+- react-leaflet library
+- ipify API
+- redux-thunk
+- apply-middleware
+- env variables
 
 ## Author
 
