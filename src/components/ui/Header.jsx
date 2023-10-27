@@ -84,7 +84,7 @@ const StyledHeader = styled.header`
 
   .hero {
     width: 100%;
-    height: 25%;
+    height: 40%;
     inset: 0;
     background-image: url("/images/pattern-bg-mobile.png");
     z-index: -11;
@@ -94,6 +94,7 @@ const StyledHeader = styled.header`
     position: absolute;
 
     @media (min-width: 45rem) {
+      height: 25%;
       background-image: url("/images/pattern-bg-desktop.png");
     }
   }

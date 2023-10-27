@@ -27,7 +27,7 @@ export const MyProfile = () => {
 const StyledMyProfile = styled.section`
   align-self: self-end;
   align-items: center;
-  background-color: #58585c;
+  background-color: var(--Grayish-Blue);
   color: var(--White);
   display: flex;
   font-size: 1rem;
@@ -53,8 +53,8 @@ const StyledMyProfile = styled.section`
   }
 
   @media screen and (max-width: 45rem) {
-    font-size: 1rem;
-    margin-top: 2rem;
+    font-size: 1.25rem;
+    /* margin-top: 2rem;  */
 
     .my-profile-icons a:first-of-type,
     .my-profile-icons a:last-of-type {

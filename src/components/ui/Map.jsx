@@ -48,10 +48,10 @@ const ChangeCenter = ({ position }) => {
 const StyledMap = styled.section`
   z-index: 11;
   position: absolute;
-  top: 25%;
+  top: 40%;
   right: 0;
   left: 0;
-  bottom: 2.75rem;
+  bottom: 0;
 
   .map {
     position: relative;
@@ -64,6 +64,9 @@ const StyledMap = styled.section`
   }
 
   @media screen and (min-width: 55rem) {
+    bottom: 2.75rem;
+    top: 25%;
+
     .leaflet-control-zoom {
       display: block;
     }
